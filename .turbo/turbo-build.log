@@ -1,0 +1,44 @@
+
+> agreeable-antimatter@0.0.1 build /Users/r.de.ruijter/Documents/werk/experimenten/turbo/lit-shared-package/apps/agreeable-antimatter
+> astro check && astro build
+
+14:33:35 [WARN] [vite] Failed to resolve dependency: @webcomponents/template-shadowroot/template-shadowroot.js, present in 'optimizeDeps.include'
+14:33:35 [WARN] [vite] Failed to resolve dependency: @lit-labs/ssr-client/lit-element-hydrate-support.js, present in 'optimizeDeps.include'
+14:33:35 [WARN] [vite] Failed to resolve dependency: @webcomponents/template-shadowroot/template-shadowroot.js, present in 'optimizeDeps.include'
+14:33:35 [WARN] [vite] Failed to resolve dependency: @lit-labs/ssr-client/lit-element-hydrate-support.js, present in 'optimizeDeps.include'
+14:33:35 [check] Getting diagnostics for Astro files in /Users/r.de.ruijter/Documents/werk/experimenten/turbo/lit-shared-package/apps/agreeable-antimatter...
+Result (2 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+14:33:37 [WARN] [vite] Failed to resolve dependency: @webcomponents/template-shadowroot/template-shadowroot.js, present in 'optimizeDeps.include'
+14:33:37 [WARN] [vite] Failed to resolve dependency: @lit-labs/ssr-client/lit-element-hydrate-support.js, present in 'optimizeDeps.include'
+14:33:37 [WARN] [vite] Failed to resolve dependency: @webcomponents/template-shadowroot/template-shadowroot.js, present in 'optimizeDeps.include'
+14:33:37 [WARN] [vite] Failed to resolve dependency: @lit-labs/ssr-client/lit-element-hydrate-support.js, present in 'optimizeDeps.include'
+14:33:37 [build] output: "server"
+14:33:37 [build] directory: /Users/r.de.ruijter/Documents/werk/experimenten/turbo/lit-shared-package/apps/agreeable-antimatter/dist/
+14:33:37 [build] adapter: @astrojs/node
+14:33:37 [build] Collecting build info...
+14:33:37 [build] ✓ Completed in 32ms.
+14:33:37 [build] Building server entrypoints...
+Ambiguous external namespace resolution: "../../node_modules/.pnpm/lit@3.1.1/node_modules/lit/index.js" re-exports "LitElement" from one of the external modules "lit-element/lit-element.js" and "lit-html/is-server.js", guessing "lit-element/lit-element.js".
+Ambiguous external namespace resolution: "../../node_modules/.pnpm/lit@3.1.1/node_modules/lit/index.js" re-exports "html" from one of the external modules "lit-element/lit-element.js" and "lit-html/is-server.js", guessing "lit-element/lit-element.js".
+Ambiguous external namespace resolution: "../../node_modules/.pnpm/lit@3.1.1/node_modules/lit/index.js" re-exports "css" from one of the external modules "lit-element/lit-element.js" and "lit-html/is-server.js", guessing "lit-element/lit-element.js".
+"LitElement", "html" and "css" are imported from external module "lit-html/is-server.js" but never used in "../../node_modules/.pnpm/lit@3.1.1/node_modules/lit/index.js".
+14:33:38 [build] ✓ Completed in 566ms.
+
+ building client (vite) 
+14:33:38 [vite] transforming...
+14:33:38 [vite] ✓ 9 modules transformed.
+14:33:38 [vite] rendering chunks...
+14:33:38 [vite] computing gzip size...
+14:33:38 [vite] dist/client/_astro/client.KliVgTTX.js                              0.62 kB │ gzip: 0.38 kB
+14:33:38 [vite] dist/client/_astro/astro_scripts/before-hydration.js.zFT_hK8q.js  12.80 kB │ gzip: 5.12 kB
+14:33:38 [vite] ✓ built in 35ms
+14:33:38 
+ finalizing server assets 
+
+14:33:38 [build] Rearranging server assets...
+14:33:38 [build] Server built in 663ms
+14:33:38 [build] Complete!
